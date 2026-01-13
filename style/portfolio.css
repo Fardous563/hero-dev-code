@@ -82,7 +82,7 @@ nav{
 .section-heading{
     max-width: 827px;
     text-align: center;
-    margin: o auto;
+    margin: 0 auto;
 }
 .section-heading h2{
     font-weight: bold;
@@ -168,4 +168,59 @@ vertical-align: middle;
     color: #181818;
     line-height: 28px;
     
+ }
+ #resume{
+    padding-top: 130px;
+    /* text-align: center; */
+ }
+ /* #resume .section-heading h2{
+    text-align: center;
+ } */
+#resume .resume-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    display: flex;
+    gap: 24px;
+}
+.resume-container .section-title{
+    color: #474747;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.resume-card{
+    max-width: 511px;
+    margin-right: 47px;
+}
+.resume-card .card-title{
+    font-size: 20px;
+    font-weight:bold;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume-card .card-info{
+    font-size: 18px;
+    font-weight:600;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.resume-card .card-text{
+    line-height: 28px;
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.resume-card hr{
+margin: 30px 0;
+}
+/* .section-heading h2 {
+    text-align: center !important;
+    display: block !important;
+    width: 100%;
+} */
+ #resume .section-heading h2{
+  display: flex;
+    justify-content: center;
+    align-items: center;
  }

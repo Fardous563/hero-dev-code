@@ -84,6 +84,10 @@ nav{
     text-align: center;
     margin: 0 auto;
 }
+.text-center{
+    text-align: center;
+    margin-top: 25px;
+}
 .section-heading h2{
     font-weight: bold;
     font-size: 35px;
@@ -224,3 +228,69 @@ margin: 30px 0;
     justify-content: center;
     align-items: center;
  }
+
+ footer{
+    margin-top: 130px;
+    background-color:#fff8f3 ;
+    padding: 130px 0;
+ }
+
+ footer .footer-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+ }
+
+ .footer-container .social{
+    max-width: 562px;
+ }
+
+ .footer-container h2{
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 20px;
+ }
+
+.footer-container .social p{
+color: #474747;
+line-height: 28px;
+margin-bottom: 30px;
+}
+
+.footer-container .icons a{
+    margin-right: 24px;
+}
+
+/* .footer-container form input[type="text"], .footer-container form input textarea{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+} */
+ .form input[type="text"], 
+.form input[type="email"], 
+.form textarea {
+    width: 461px; 
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+    display: block; 
+    box-sizing: border-box;
+}
+
+/* Submit button-er style */
+.btn {
+    background-color: #ff6f00; 
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
